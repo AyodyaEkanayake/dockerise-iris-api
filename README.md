@@ -112,21 +112,21 @@ A container can be "running" while the application inside it has crashed or fail
 
 ## Results (screenshots)
 
-Add your screenshots here:
+**1. Unit tests pass**
+![Tests passed](screenshots/01-pytest-passed.png)
 
-1. `python -m pytest -q` showing `3 passed`
-2. `docker build -t iris-api:1.0 .` finished
-3. `docker images` showing `iris-api:1.0`
-4. `docker ps` showing the container as `healthy` on port `8000`
-5. `/docs` page showing the `/predict` result (`setosa`)
+**2. Docker image build**
+![Docker build](screenshots/02-docker-build.png)
 
-```
-![Tests](screenshots/tests.png)
-![Docker build](screenshots/build.png)
-![Docker images](screenshots/images.png)
-![Docker ps](screenshots/ps.png)
-![Predict result](screenshots/predict.png)
-```
+**3. Image created**
+![Docker images](screenshots/03-docker-images.png)
+
+**4. Container running and healthy**
+![Docker ps](screenshots/04-docker-ps-healthy.png)
+
+**5. Prediction from the running container**
+![Predict result](screenshots/05-docs-predict-setosa.png)
+
 
 ## Troubleshooting
 
