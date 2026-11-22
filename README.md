@@ -113,19 +113,23 @@ A container can be "running" while the application inside it has crashed or fail
 ## Results (screenshots)
 
 **1. Unit tests pass**
-![Tests passed](Screenshots/01-pytest-passed.png)
+<img width="950" height="305" alt="01-pytest-passed png" src="https://github.com/user-attachments/assets/d879e622-7fbc-4865-9b43-708227153a9a" />
+
 
 **2. Docker image build**
-![Docker build](Screenshots/02-docker-build.png)
+<img width="951" height="1017" alt="02-docker-build png" src="https://github.com/user-attachments/assets/fdc4edcd-40de-4257-a6ba-645900b68b93" />
+
 
 **3. Image created**
-![Docker images](Screenshots/03-docker-images.png)
+<img width="965" height="146" alt="03-docker-images png" src="https://github.com/user-attachments/assets/1aeda85b-a8d6-4e66-b223-7e71a6f6694e" />
+
 
 **4. Container running and healthy**
-![Docker ps](Screenshots/04-docker-ps-healthy.png)
+<img width="1842" height="86" alt="04-docker-ps-healthy png" src="https://github.com/user-attachments/assets/48a85d77-32ba-47c9-9390-f7bc2829b189" />
+
 
 **5. Prediction from the running container**
-![Predict result](Screenshots/05-docs-predict-setosa.png)
+<img width="1915" height="970" alt="05-docs-predict-setosa png" src="https://github.com/user-attachments/assets/84d22dda-920c-40a0-9587-2fe82138b657" />
 
 
 ## Troubleshooting
