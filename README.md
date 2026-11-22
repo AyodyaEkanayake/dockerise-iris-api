@@ -113,19 +113,19 @@ A container can be "running" while the application inside it has crashed or fail
 ## Results (screenshots)
 
 **1. Unit tests pass**
-![Tests passed](screenshots/01-pytest-passed.png)
+![Tests passed](Screenshots/01-pytest-passed.png)
 
 **2. Docker image build**
-![Docker build](screenshots/02-docker-build.png)
+![Docker build](Screenshots/02-docker-build.png)
 
 **3. Image created**
-![Docker images](screenshots/03-docker-images.png)
+![Docker images](Screenshots/03-docker-images.png)
 
 **4. Container running and healthy**
-![Docker ps](screenshots/04-docker-ps-healthy.png)
+![Docker ps](Screenshots/04-docker-ps-healthy.png)
 
 **5. Prediction from the running container**
-![Predict result](screenshots/05-docs-predict-setosa.png)
+![Predict result](Screenshots/05-docs-predict-setosa.png)
 
 
 ## Troubleshooting
